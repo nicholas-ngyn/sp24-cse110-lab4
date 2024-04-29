@@ -38,6 +38,6 @@
 
 15.) The difference between == and === is that == performs type coercion and checks for equality after conversion, while === strictly compares both the value and the type of the operands without performing type coercion.
 
-
+17.) [2, 4, 6] because the array [1, 2, 3] is passed as the first argument to modifyArray and the second argument is the doSomething function, which pretty much multiplies its input by 2. So inside modifyArray, each element of the array [1, 2, 3] is passed through the doSomething function which results in the modified values [2, 4, 6] and these modified values are then pushed into a new array newArr.
 
 
